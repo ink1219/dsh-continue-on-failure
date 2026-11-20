@@ -1,0 +1,11 @@
+{
+  "meta": { "title": "Continue after failure", "description": "Shows a Continue button above the composer after a failed model request, so you can resume with one click instead of retyping." },
+  "action.retry": "Retry",
+  "action.retryActive": "Regenerating…",
+  "action.continue": "Continue",
+  "action.continueActive": "Continuing…",
+  "action.continueHint": "The last model request failed. Click to resume without typing.",
+  "dock.hint": "The last model request failed. Press Continue to resend it.",
+  "error.retry": "Retry failed",
+  "error.continue": "Continue failed"
+}

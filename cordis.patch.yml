@@ -1,0 +1,3 @@
+- insert:
+    - id: continue-on-failure
+      name: 'dsh-continue-on-failure'

@@ -1,0 +1,31 @@
+{
+  "name": "dsh-continue-on-failure",
+  "version": "1.0.0",
+  "description": "Shows a Continue button above the composer after a failed model request, so you can resume the turn with one click instead of retyping.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ink1219/dsh-continue-on-failure.git"
+  },
+  "author": "ink1219",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "retry", "continue"],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "client.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md", "LICENSE"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  }
+}

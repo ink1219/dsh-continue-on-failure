@@ -1,0 +1,11 @@
+{
+  "meta": { "title": "失败后继续", "description": "模型请求失败后，在输入框上方显示「继续」按钮，点一下即可接着跑，不用手动重新输入。" },
+  "action.retry": "重试",
+  "action.retryActive": "正在重新生成…",
+  "action.continue": "继续",
+  "action.continueActive": "正在继续…",
+  "action.continueHint": "上一轮模型请求失败，点一下即可接着跑，不用手打",
+  "dock.hint": "上一轮模型请求失败了，点「继续」直接重发",
+  "error.retry": "重试失败",
+  "error.continue": "继续失败"
+}
